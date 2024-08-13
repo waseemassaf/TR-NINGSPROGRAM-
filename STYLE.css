@@ -1,0 +1,395 @@
+/* Importera typsnitt från Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&family=Open+Sans:wght@300;600&family=Oswald:wght@200&display=swap');
+
+
+
+
+.linkpic {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid red; /* Lägger till en 5px tjock, röd ram */
+}
+  
+
+
+
+
+/* Återställ standardmarginaler, fyllningar och box-modell för alla element */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Ändra utseendet på hela sidans kropp */
+body {
+    background: #97b47a; /* Ange sökvägen till din bild */
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela sidan */
+    background-repeat: no-repeat; /* Förhindra att bakgrundsbilden upprepas */
+    background-attachment: fixed; /* Fäst bakgrundsbilden så den inte rullar med innehållet */
+    line-height: 1.4rem; /* Mellan radernas avstånd */
+    font-family: 'Open Sans', sans-serif; /* Typsnittsfamilj */
+}
+
+
+/* Allt innehåll (header + article) inställningar på sidan */
+.main {
+    margin: 16px auto; /* Avstånd från kanten */
+    background: #ffffff;  /* Bakgrundsfärg på själva sidan med innehåll = W1 */
+    width: 96%; /* Bredd på huvudinnehållet */
+    max-width: 750px; /* Maximal bredd */
+    padding: 8px; /* Inre fyllning */
+    border-radius: 8px; /* Avrundade hörn */
+}
+
+/* Ändra standardtextstorleken för hela dokumentet */
+html {
+    font-size: 100%;
+}
+
+/* Inställningar för vanliga textstycken */
+p {
+    font-size: 1.1rem; /* Textstorlek */
+    margin-bottom: 1.68rem; /* Avstånd från efterföljande element */
+    line-height: 1.6; /* ändra avståndet mellan raderna */
+    direction: rtl; /*från höger till vänster (på arabiska), alltså texten ska gå från h till v */
+    margin-bottom: 1.5rem; /* Avstånd från efterföljande element */
+
+}
+
+
+.p0{
+    font-size: 1.1rem; /* Textstorlek */
+    margin-bottom: 100rem; /* Avstånd från efterföljande element */
+    line-height: 1.6; /* ändra avståndet mellan raderna */
+    direction: rtl; /*från höger till vänster (på arabiska), alltså texten ska gå från h till v */
+    margin-bottom: 1.5rem; /* Avstånd från efterföljande element */
+
+}
+
+
+.pw
+{
+    margin-bottom: 2.5rem; /* Avstånd från efterföljande element */
+
+}
+
+
+.ps
+{
+    margin-bottom: 2.5rem; /* Avstånd från efterföljande element */
+    color:rgb(194, 176, 11);
+}
+
+
+/* Inställningar för rubriker av typen h1 */
+h1 {
+    color:#ea0909;
+    text-transform: uppercase; /* Omvandla text till versaler */
+    font-family: 'Kanit', sans-serif; /* Typsnittsfamilj */
+    font-size: 1.8rem; /* Textstorlek */
+    margin-bottom: 1.80rem; /* Avstånd från efterföljande element */
+    margin-top: 2.80rem; /* Avstånd från föregående element */
+    direction: ltr; /*alltså att texten ska börja från höger till vänster (på arabiska) */
+
+
+
+}
+
+/* Inställningar för navigationsmenyn */
+.nav {
+    display: flex; /* Flexbox-layout */
+    flex-direction: row; /* Horisontell riktning */
+    justify-content: space-between; /* Jämna utrymmet mellan element */
+    background-color: #adee66; /* Bakgrundsfärg */
+    padding: 5px; /* Inre fyllning */
+    font-size: 1.2rem; /* Textstorlek */
+    margin-bottom: 20px; /* Öka avståndet mellan varje stycke */
+    
+}
+
+
+
+/* Inställningar för länkar i navigationsmenyn */
+.nav a {
+    display: flex; 
+    text-decoration: none; /* Ingen understrykning */
+    color: #120be5; /* Textfärg */
+    font-size: 1.4rem; /* Textstorlek */
+    
+
+}
+
+
+
+
+/* Hover-effekt för länkar i navigationsmenyn */
+.nav a:hover,
+.nav a:active {
+    color: rgb(255, 0, 0); /* Ändra färgen till röd vid hover och när länken är aktiv (när vi klicker eller musen på den) */
+}
+
+
+
+
+/* Inställningar för bilder */
+img {
+    max-width: 100%; /*för att ändra den hur som helst*/
+    width: 100%; /* Sätt bildens bredd till 100% av dess container (förälderelement) */
+    display: block; /* Gör bilden till ett blockelement för att hantera bredden korrekt */
+    margin-bottom: 2rem; /* Avstånd från efterföljande element */
+
+}
+
+
+.välkomnestext 
+{
+    color: #000000; /* Textfärg */
+    flex-direction: row; /* Horisontell riktning */
+    justify-content: space-between; /* Jämna utrymmet mellan element */
+    margin-bottom: 7rem; /* Avstånd från efterföljande element */
+    padding: 8px; /* Inre fyllning */
+    line-height: 1.6; /* ändra avståndet mellan raderna */
+    direction: rtl; /*alltså att texten ska börja från höger till vänster (på arabiska) */
+    font-size: 1.2rem; /* Textstorlek */
+    margin-right: 0px; /* Öka avståndet mellan varje länk */
+
+    margin-top: 1.0rem; /* Avstånd från föregående element */
+    direction: ltr; /*alltså att texten ska börja från höger till vänster (på arabiska) */
+
+}
+
+/* Styling för h2-rubrik med fetstilt röd text */
+.hh2 {
+    color: url(WaseemAssafImg.jpg);
+    font-weight: bold; /* Fetstilt text */
+    direction: rtl;
+
+}
+
+
+.o{
+    margin-bottom: 0.1rem; /* Avstånd från efterföljande element */
+}
+
+
+
+
+.välkomnestextTasbihat
+{
+    color: url(WaseemAssafImg.jpg);
+
+}
+
+.h12TASBIHAT {
+    color: #ea0909;
+    padding: 1px; /* Inre fyllning */
+    font-size: 2.0rem; /* Textstorlek */
+    margin: 16px auto; /* Avstånd från kanten */
+    direction: rtl;
+    margin-bottom: 2rem; /* Avstånd från efterföljande element */
+
+}
+
+
+.linkpic {
+    max-width: auto; /* Justera storleken efter dina önskemål */
+    width: 680px; /*Justerar bredden på bilden efter våra önskemål */
+    height: 120px; /* Justera höjden på bilden efter dina önskemål (gör auto eller 100px tex */
+    margin-bottom: 100px; /* Öka avståndet mellan varje stycke */
+    margin-right: 10px; /* Öka avståndet till vänster*/
+
+}
+
+
+
+.wa{
+    margin-bottom: 4rem; /* Avstånd från efterföljande element */
+
+}
+
+.C {
+    color: #044c06;
+    font-size:1.0rem;
+}
+
+.C1{
+    font-size:1.0rem;
+    margin-bottom: 70px;
+    color: #044c06;
+}
+
+
+.E{
+    color:#9f981e;
+    font-size:1.0rem;
+}
+
+
+
+.R{
+    margin-bottom: 25px; /* Öka avståndet mellan varje stycke */
+}
+
+.kontaktaossRubrik
+{
+    font-size: 1.6rem;
+    color: #ea0909;
+    font-weight: bold; /* Fetstilt text */
+    direction: rtl;
+
+}
+
+.ppp{
+    color: #ea0909;
+}
+
+.D{
+    color:#9f981e;
+    font-size:1.0rem;
+    margin-bottom: 60px; /* Öka avståndet mellan varje stycke */
+
+}
+
+.end{
+    background-color: #e0e40a; /* Bakgrundsfärg */
+
+}
+
+
+.footer {
+    background-color: #f0d508; /* Brun färg för bakgrund */
+    color: #ffffff; /* Vit textfärg */
+    padding: 35px; /* Inre fyllning för att ge utrymme åt innehållet */
+    text-align: center; /* Centrera texten horisontellt */
+    width: 100%; /* Ruta sträcker sig över hela sidan */
+    position: auto; /* För att placera rutan längst ned på sidan */
+
+}
+
+.slut{
+    margin-bottom: 60px; /* Öka avståndet mellan varje stycke */
+}
+
+
+.schemaPic{
+    max-width: auto;
+    width: auto;
+    height: auto;
+    margin-right: 180px;
+    margin-bottom: 1px;
+}
+
+.kladd{
+    margin-bottom: 50px;
+}
+
+.avstånd{
+    margin-bottom: 50px;
+}
+
+
+.newp
+{
+    color:rgb(73, 50, 9);
+    direction: ltr;
+    margin-bottom: 30px;
+    font-weight: bold; /* Gör texten fetstilad */
+
+}
+
+
+.avstånd11{
+    margin-bottom: 10px;
+    color:black
+}
+
+.avstånd2{
+    margin-bottom: 100px;
+    color:black
+}
+
+.Y{
+    color:#120be5;
+    margin-bottom: 1px; /* Öka avståndet mellan varje stycke */
+}
+
+.Y5{
+    color: rgb(1, 134, 14);
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.Y1{
+    color: rgb(1, 134, 14);
+    margin-bottom: 60px;
+}
+
+.Y2{
+    color: rgb(1, 134, 14);
+    margin-bottom: 15px;
+
+}
+
+.Y6{
+    color: rgb(140, 26, 207);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.Y7{
+    color: rgb(1, 134, 14);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.Y8{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+
+.Y3{
+    color: rgb(1, 134, 14);
+    margin-bottom: 55px;
+}
+
+
+.SchemaRubrik{
+    color: rgb(143, 101, 5);
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.Y4{
+    margin-bottom: 90px;
+    color: rgb(143, 101, 5);
+    
+}
+
+
+.avstånd3{
+    margin-bottom: 20px;
+    color: rgb(140, 26, 207);
+    font-size:1.3rem;
+
+}
+
+.avstånd112
+{
+    margin-bottom: 100px;
+    color:black
+}
+
+.avslutaDuaaSidan{
+    color: #894700;
+
+}
+
+.avslutaDuaaSidan1{
+    color: #894700;
+    margin-bottom: 100px;
+}
